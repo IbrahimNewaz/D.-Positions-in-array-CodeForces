@@ -21,21 +21,20 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    int a[n];
+    int A[n];
 
     int i;
     for (i = 0; i < n; i++)
     {
-        scanf("%d", a[i]);
+        scanf("%d", &A[i]);
     }
 
     for (i = 0; i < n; i++)
     {
-        if (a[i] <= 10)
+        if (A[i] <= 10)
         {
-            printf("A[%d] = %d\n", i, a[i]);
+            printf("A[%d] = %d\n", i, A[i]);
         }
     }
-
     return 0;
 }
