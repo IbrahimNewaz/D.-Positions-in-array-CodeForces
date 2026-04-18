@@ -1,0 +1,23 @@
+
+PseudoCode
+Start >>
+
+1. int n;
+scanf("%d",&n);
+
+2. int a[n];
+
+3.Getting Arrays Elements
+int i;
+for(i=0;i<n;i++){
+scanf("%d",&a[i]);
+}
+
+4. Run a for loop from a[i] to a[n-1] and find out thous elemens whichever is less then or equal to 10(<= 10).
+for(i=0;i<n;i++){
+if(a[i] <= 10){
+printf("a[%d] = %d\n",i, a[i]);
+}
+}
+
+
